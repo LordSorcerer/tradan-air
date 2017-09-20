@@ -1,0 +1,77 @@
+    body {
+        background-image: url('../graphics/travel_wallpaper.jpg');
+        background-position: center;
+        background-repeat: none;
+        text-align: center;
+    }
+    
+    .wrapper {
+        width: 960px;
+        margin: 0 auto;
+    }
+    
+    .display {
+        width: 95%;
+        font-family: Milonga;
+        font-size: 20px;
+        background-color: lightblue;
+        text-align: center;
+        margin: 5px auto 25px auto;
+        border: darkblue 5px dashed;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    
+    .dynamicButton {
+        margin: 10px;
+        width: auto;
+    }
+    
+    .dynamicTag {
+        background-color: darkblue;
+        color: lightblue;
+        height: 25%;
+        padding-top: 5%;
+    }
+    
+    .dynamicFrame {
+        margin: 10px;
+        width: 200px;
+        height: 200px;
+        border: darkblue 3px solid;
+        float: left;
+    }
+    
+    .dynamicImage {
+        width: 100%;
+        height: 75%;
+    }
+    
+    #searchField {
+        padding-left: 5px;
+        width: 50%;
+        margin: 10px 0px;
+    }
+    
+    #searchButton {
+        width: 20%;
+        margin: 10px 0px;
+    }
+    
+    h1 {
+        color: red;
+    }
+    
+    #displayResponses {
+        height: 630px;
+        display: inline-table;
+        clear: both;
+    }
+    
+    #displayGraphic {
+        width: 25%;
+        display: block;
+        margin: 25px auto;
+    }
+    
+    </style>
